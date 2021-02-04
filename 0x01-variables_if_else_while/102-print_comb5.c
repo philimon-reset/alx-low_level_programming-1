@@ -19,11 +19,13 @@ int main(void)
 				{
 					for (c_four = 48; c_four = 57; c_four++)
 					{
-						if (c_three != 48 || c_three != 48)
+						if (c_three != 48 || c_four != 48)
 						{
 							putchar(c);
 							putchar(c_two);
+							putchar(32);
 							putchar(c_three);
+							putchar(c_four);
 							if (c != 55 || c_two != 56 || c_three != 57)
 							{
 								putchar(44);
@@ -37,7 +39,6 @@ int main(void)
 				break;
 		}
 	}
-
 	putchar(10);
 	return (0);
 }
