@@ -7,22 +7,17 @@
  */
 int main(void)
 {
-	int c, c_two, first, second, third, fourth;
+	int c, c_two;
 	
 	for (c = 0; c <= 98; c++)
 	{
 		for (c_two = c + 1; c_two <= 99; c_two++)
-		{
-			first = (char) c / 10;
-			second = (char) c % 10;
-			third = (char) c_two / 10;
-			fourth = (char) c_two % 10;
-			
-			putchar(first);
-			putchar(second);
+		{	
+			putchar('0' + c / 10);
+			putchar('0' + c % 10);
 			putchar(32);
-			putchar(third);
-			putchar(fourth);
+			putchar('0' + c_two / 10);
+			putchar('0' + c_two % 10);
 			putchar(44);
 		}
 	}
