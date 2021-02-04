@@ -7,7 +7,11 @@
  */
 int main(void)
 {
+<<<<<<< HEAD
 	int c, c_two
+=======
+	int c, c_two;
+>>>>>>> 323bbd5c901d68de560b29309b5954e933077fea
 
 	for (c = 0; c <= 98; c++)
 	{
