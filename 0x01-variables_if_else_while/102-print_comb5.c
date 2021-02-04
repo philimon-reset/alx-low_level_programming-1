@@ -26,7 +26,7 @@ int main(void)
 							putchar(32);
 							putchar(c_three);
 							putchar(c_four);
-							if (c != 57 || c_two != 56 || c_three != 57 || c-four != 57)
+							if (c != 57 || c_two != 56 || c_three != 57 || c_four != 57)
 							{
 								putchar(44);
 								putchar(32);
