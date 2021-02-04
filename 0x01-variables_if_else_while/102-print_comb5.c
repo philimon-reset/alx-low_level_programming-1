@@ -7,34 +7,23 @@
  */
 int main(void)
 {
-	int c, c_two, c_three, c_four;
-
-	for (c = 48; c <= 57; c++)
+	int c, c_two, first, second, third, fourth;
+	
+	for (c = 0; c <= 98; c++)
 	{
-		for (c_two = 48; c_two <= 57; c_two++)
+		for (c_two = c + 1; c_two <= 99; c_two++)
 		{
-			if (c != 57 || c_two != 57)
-			{
-				for (c_three = 48; c_three <= 57; c_three++)
-				{
-					for (c_four = 48; c_four <= 57; c_four++)
-					{
-						if (c_three != 48 || c_four != 48)
-						{
-							putchar(c);
-							putchar(c_two);
-							putchar(32);
-							putchar(c_three);
-							putchar(c_four);
-							if (c != 57 || c_two != 56 || c_three != 57 || c_four != 57)
-							{
-								putchar(44);
-								putchar(32);
-							}
-						}
-					}
-				}
-			}
+			first = c / 10;
+			second = c % 10;
+			third = c_two / 10;
+			fourth = c_two % 10;
+			
+			putchar(first);
+			putchar(second);
+			putchar(32);
+			putchar(third);
+			putchar(fourth);
+			putchar(44);
 		}
 	}
 	putchar(10);
