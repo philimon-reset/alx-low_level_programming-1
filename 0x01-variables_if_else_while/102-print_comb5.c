@@ -19,7 +19,7 @@ int main(void)
 			putchar('0' + c_two / 10);
 			putchar('0' + c_two % 10);
 			if (c / 10 != 9 || c % 10 != 8)
-			{				
+			{
 				putchar(44);
 			}
 		}
