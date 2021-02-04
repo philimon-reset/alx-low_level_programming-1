@@ -13,10 +13,10 @@ int main(void)
 	{
 		for (c_two = c + 1; c_two <= 99; c_two++)
 		{
-			first = c / 10;
-			second = c % 10;
-			third = c_two / 10;
-			fourth = c_two % 10;
+			first = (char) c / 10;
+			second = (char) c % 10;
+			third = (char) c_two / 10;
+			fourth = (char) c_two % 10;
 			
 			putchar(first);
 			putchar(second);
