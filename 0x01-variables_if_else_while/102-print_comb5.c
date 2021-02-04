@@ -13,7 +13,7 @@ int main(void)
 	{
 		for (c_two = 48; c_two <= 57; c_two++)
 		{
-			if (c != 57 || c != 57)
+			if (c != 57 || c_two != 57)
 			{
 				for (c_three = 48; c_three <= 57; c_three++)
 				{
