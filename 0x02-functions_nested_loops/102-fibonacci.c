@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	int counter = 0;
+	int counter = 2;
 	long first = 1;
 	long second = 2;
 	long fib;
