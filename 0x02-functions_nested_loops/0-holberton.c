@@ -1,4 +1,4 @@
-#include "_putchar.h"
+#include "_putchar.c"
 
 /**
  * main - Entry point, prints ""Holberton" to the standard output
