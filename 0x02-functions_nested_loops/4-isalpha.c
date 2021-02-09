@@ -1,3 +1,5 @@
+#include "holberton.h"
+
 /**
  * _isalpha - checks whether a char is an alphabet or not
  * @c: the char to be checked
