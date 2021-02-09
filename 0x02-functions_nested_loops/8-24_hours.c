@@ -20,9 +20,6 @@ void jack_bauer(void)
 			_putchar(i / 10 + '0');
 			_putchar(i % 10 + '0');
 		}
-		if (j < 23)
-		{
-			_putchar(10);
-		}
+		_putchar('\n');
 	}
 }
