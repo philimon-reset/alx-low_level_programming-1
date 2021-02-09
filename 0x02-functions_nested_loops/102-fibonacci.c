@@ -22,11 +22,12 @@ int main(void)
 		}
 		else
 		{
-			printf("%ld\n", fib);
+			printf("%ld", fib);
 		}
 		first = second;
 		second = fib;
 		counter++;
 	}
+	printf("\n");
 	return (0);
 }
