@@ -1,3 +1,5 @@
+#include "holberton.h"
+
 /**
  * print_times_table - prints the n times table
  * @n: number to be used
