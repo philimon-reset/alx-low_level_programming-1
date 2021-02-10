@@ -13,10 +13,10 @@ int main(void)
 	long fib;
 
 	printf("1, 2, ");
-	while (counter <= 47)
+	while (counter <= 49)
 	{
 		fib = first + second;
-		if (counter < 47)
+		if (counter < 49)
 		{
 			printf("%ld, ", fib);
 		}
