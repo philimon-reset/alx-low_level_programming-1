@@ -7,13 +7,12 @@
  */
 int main(void)
 {
-	int counter = 2;
-	unsigned long first = 1;
-	unsigned long second = 2;
+	int counter = 0;
+	unsigned long first = 0;
+	unsigned long second = 1;
 	unsigned long fib;
 
-	printf("1, 2, ");
-	while (counter <= 97)
+	while (counter <= 98)
 	{
 		fib = first + second;
 		if (counter < 97)
