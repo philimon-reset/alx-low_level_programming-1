@@ -38,7 +38,7 @@ void print_number(int n)
 
 		for (i = counter - 1; i >= 0; i--)
 		{
-			_putchar(((n / (int) pow((double) 10, (double) i)) % 10) = '0');
+			_putchar(((n / (int) pow((double) 10, (double) i)) % 10) + '0');
 		}
 	}
 }
