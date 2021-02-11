@@ -29,6 +29,7 @@ void print_number(int n)
 		{
 			tmp /= 10;
 			counter++;
+			tmp--;
 		}
 
 		if (flag)
