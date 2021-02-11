@@ -1,4 +1,5 @@
 #include "holberton.h"
+#include <math.h>
 
 /**
  * print_number - prints a number using _putchar
