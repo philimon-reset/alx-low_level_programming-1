@@ -1,3 +1,5 @@
+#include "holberton.h"
+
 /**
  * mul - multiplies 2 numbers
  * @a: first number to be computed

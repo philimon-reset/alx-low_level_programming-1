@@ -1,3 +1,5 @@
+#include "holberton.h"
+
 /**
  * _isdigit - checks whether a char is a digit or not
  * @c: the char to be checked
